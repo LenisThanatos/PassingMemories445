@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.445project3.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\joshu\\Documents\\GitHub\\Iat-445-final-project-Vivian-s-files\\445 project 3\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\joshu\\Documents\\GitHub\\Master\\PassingMemories445\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "445 project 3 [Testing]"
