@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CabinPast_2.unity
     guid: 7cd014f7f201f994e990b50ce08fee72
+  - enabled: 1
+    path: Assets/Scenes/CabinLush.unity
+    guid: 97d2e9d8afaec4941bcd47715f786b86
+  - enabled: 1
+    path: Assets/Scenes/CabinWithered.unity
+    guid: 94659926167a1e34f8458424d619334d
   m_configObjects: {}
