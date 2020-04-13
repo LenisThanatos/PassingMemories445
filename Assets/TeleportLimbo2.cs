@@ -17,21 +17,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Teleport : MonoBehaviour
+public class TeleportLimbo2 : MonoBehaviour
 {
     [SerializeField] private Object scene; //[SerializeField] allows you to see private variables in the editor without making them public
 
     private void OnTriggerEnter(Collider other)
     {
-        
+
         //SceneManager.LoadScene(scene.name);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
 
         if (other.gameObject.tag == "Player")
         {
             Destroy(other.gameObject);
         }
-        
+
 
 
     }

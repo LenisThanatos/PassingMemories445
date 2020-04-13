@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.passingmemories.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\marcu\\OneDrive\\Desktop\\PassingMemories445\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\marcu\\OneDrive\\Documents\\GitHub\\PassingMemories445\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "Passing Memories [Testing]"
