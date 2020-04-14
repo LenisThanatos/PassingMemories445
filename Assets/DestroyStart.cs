@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class DestroyStart : MonoBehaviour
 {
+    public AudioSource startSound;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        startSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -16,16 +18,20 @@ public class DestroyStart : MonoBehaviour
         
     }
 
-    public void OnCollisionEnter (Collision coll)
+    void OnCollisionEnter (Collision coll)
     {
- //       if (coll.gameObject.tag == "Start")
- //       {
- //           GameObject[] gameObjects = GameObject.FindGameObjectsWithTag(tag);
- //           foreach (GameObject Start in gameObject) 
- //           {
-  //              gameObject.Destroy(Start);
- //               //Destroy(coll.gameObject);
- //           }
- //       }
+       if (coll.gameObject.tag == "Start")
+       {
+            startSound.Play();
+            GameObject[] starterwalls = GameObject.FindGameObjectsWithTag("Start");
+            foreach (GameObject starter in starterwalls)
+                GameObject.Destroy(starter);
+            //Destroy(gameObject.FindWithTag("Start"));
+       }
     }
+
+    /*void DestroyStart (string Start)
+    {
+        GameObject[] 
+    }*/
 }
