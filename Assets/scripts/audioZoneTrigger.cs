@@ -7,10 +7,10 @@ public class audioZoneTrigger : MonoBehaviour
 {
   void OnTriggerEnter(Collider col){
 
-    if(col.gameObject.tag == "Player"){
+    
 GetComponent<AudioSource>().Play();
 GetComponent<AudioSource>().loop = false;
-    }
+    
   }
   /*void OnTriggerExit(Collider col){
 

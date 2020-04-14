@@ -19,26 +19,18 @@ using UnityEngine.SceneManagement;
 
 public class Teleport : MonoBehaviour
 {
-    AudioSource Limbo1audio;
+    public AudioClip speech;
+    private AudioSource Limbo1audio;
+
+   void Awake()
+    {
+        Limbo1audio = GetComponent<AudioSource>();
+    }
 
     [SerializeField] private Object scene; //[SerializeField] allows you to see private variables in the editor without making them public
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-
-        //SceneManager.LoadScene(scene.name);
-
-        if (other.gameObject.tag == "Player")
-        {
-            IEnumerator playSoundThenLoad()
-            {
-                Limbo1audio.Play();
-                yield return new WaitForSeconds(Limbo1audio.clip.length);
                 SceneManager.LoadScene(1);
-            }
-
-        }
-        
-
 
     }
 }
