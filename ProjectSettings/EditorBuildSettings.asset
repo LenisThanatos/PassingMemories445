@@ -6,30 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Cabin.unity
+    path: Assets/Cabin.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/CabinPast.unity
+    path: Assets/CabinPast.unity
     guid: f277a4a34e4b71d4cbd0ce8975b887d9
   - enabled: 1
-    path: Assets/Scenes/Limbo2.unity
+    path: Assets/Limbo2.unity
     guid: 2ca0a9c44ba539241b68f2c62532b1e7
   - enabled: 1
-    path: Assets/Scenes/Limbo2B.unity
+    path: Assets/Limbo2B.unity
     guid: bb06f29f96617cf48af1ab2a4044538b
   - enabled: 1
-    path: Assets/Scenes/CabinPast_2.unity
+    path: Assets/CabinPast_2.unity
     guid: 7cd014f7f201f994e990b50ce08fee72
   - enabled: 1
-    path: Assets/Scenes/CabinPast2B.unity
+    path: Assets/CabinPast2B.unity
     guid: f1eacafdb1baa76438b874080ed5378d
   - enabled: 1
-    path: Assets/Scenes/CabinLush.unity
+    path: Assets/CabinLush.unity
     guid: 97d2e9d8afaec4941bcd47715f786b86
   - enabled: 1
-    path: Assets/Scenes/NormalEnd.unity
+    path: Assets/NormalEnd.unity
     guid: e794fce2d71150d4da39f4eaad1ef03d
   - enabled: 1
-    path: Assets/Scenes/CabinWithered.unity
+    path: Assets/CabinWithered.unity
     guid: 94659926167a1e34f8458424d619334d
   m_configObjects: {}
