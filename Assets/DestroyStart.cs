@@ -18,13 +18,14 @@ public class DestroyStart : MonoBehaviour
         
     }
 
-    void OnCollisionEnter (Collision coll)
+    void OnTriggerEnter (Collider coll)
     {
        if ((coll.gameObject.tag == "Start") || (coll.gameObject.tag == "Player"))
        {
             startSound.Play();
             GameObject[] starterwalls = GameObject.FindGameObjectsWithTag("Start");
             foreach (GameObject starter in starterwalls)
+                //Destroy(GameObject.starter);
                 GameObject.Destroy(starter);
             //Destroy(gameObject.FindWithTag("Start"));
        }

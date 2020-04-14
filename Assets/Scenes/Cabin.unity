@@ -650,7 +650,8 @@ GameObject:
   - component: {fileID: 46863954}
   - component: {fileID: 46863953}
   - component: {fileID: 46863955}
-  m_Layer: 5
+  - component: {fileID: 46863956}
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Start
   m_Icon: {fileID: 0}
@@ -758,7 +759,7 @@ BoxCollider:
   m_GameObject: {fileID: 46863948}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 884.48, y: 270.43, z: 0.4}
   m_Center: {x: 0, y: 0, z: 0}
@@ -775,6 +776,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSound: {fileID: 2005955367}
+--- !u!64 &46863956
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46863948}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &48995315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1543,6 +1558,7 @@ GameObject:
   - component: {fileID: 92838148}
   - component: {fileID: 92838153}
   - component: {fileID: 92838152}
+  - component: {fileID: 92838154}
   m_Layer: 0
   m_Name: StartBox4
   m_TagString: Start
@@ -1559,7 +1575,7 @@ BoxCollider:
   m_GameObject: {fileID: 92838147}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1648,6 +1664,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSound: {fileID: 2005955367}
+--- !u!64 &92838154
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92838147}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &92872433
 GameObject:
   m_ObjectHideFlags: 0
@@ -2752,6 +2782,7 @@ GameObject:
   - component: {fileID: 286561409}
   - component: {fileID: 286561414}
   - component: {fileID: 286561413}
+  - component: {fileID: 286561415}
   m_Layer: 0
   m_Name: StartBox3
   m_TagString: Start
@@ -2768,7 +2799,7 @@ BoxCollider:
   m_GameObject: {fileID: 286561408}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2857,6 +2888,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSound: {fileID: 2005955367}
+--- !u!64 &286561415
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286561408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &294060178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12924,6 +12969,7 @@ GameObject:
   - component: {fileID: 1023562918}
   - component: {fileID: 1023562923}
   - component: {fileID: 1023562922}
+  - component: {fileID: 1023562924}
   m_Layer: 0
   m_Name: StartBox1
   m_TagString: Start
@@ -12940,7 +12986,7 @@ BoxCollider:
   m_GameObject: {fileID: 1023562917}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -13029,6 +13075,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSound: {fileID: 2005955367}
+--- !u!64 &1023562924
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023562917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1027526493
 GameObject:
   m_ObjectHideFlags: 0
@@ -16232,6 +16292,7 @@ GameObject:
   - component: {fileID: 1471727774}
   - component: {fileID: 1471727779}
   - component: {fileID: 1471727778}
+  - component: {fileID: 1471727780}
   m_Layer: 0
   m_Name: StartBox2
   m_TagString: Start
@@ -16248,7 +16309,7 @@ BoxCollider:
   m_GameObject: {fileID: 1471727773}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -16337,6 +16398,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSound: {fileID: 2005955367}
+--- !u!64 &1471727780
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471727773}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1474313861
 GameObject:
   m_ObjectHideFlags: 0
@@ -17204,7 +17279,7 @@ GameObject:
   - component: {fileID: 1538495972}
   - component: {fileID: 1538495971}
   - component: {fileID: 1538495970}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Button
   m_TagString: Start
   m_Icon: {fileID: 0}
@@ -19385,7 +19460,7 @@ GameObject:
   - component: {fileID: 1764410387}
   - component: {fileID: 1764410389}
   - component: {fileID: 1764410388}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Start
   m_Icon: {fileID: 0}
