@@ -9,15 +9,15 @@ public class audioZoneTrigger : MonoBehaviour
 
     if(col.gameObject.tag == "Player"){
 GetComponent<AudioSource>().Play();
-GetComponent<AudioSource>().loop = true;
+GetComponent<AudioSource>().loop = false;
     }
   }
-  void OnTriggerExit(Collider col){
+  /*void OnTriggerExit(Collider col){
 
     if(col.gameObject.tag == "Player"){
 GetComponent<AudioSource>().Stop();
 GetComponent<AudioSource>().loop = true;
     }
-  }
+  }*/
 
 }

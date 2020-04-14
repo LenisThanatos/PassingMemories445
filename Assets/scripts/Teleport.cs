@@ -23,7 +23,16 @@ public class Teleport : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        
         //SceneManager.LoadScene(scene.name);
-       SceneManager.LoadScene(1);
+        SceneManager.LoadScene(1);
+
+        if (other.gameObject.tag == "Player")
+        {
+            Destroy(other.gameObject);
+        }
+        
+
+
     }
 }

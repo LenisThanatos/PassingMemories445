@@ -17,7 +17,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Teleport2 : MonoBehaviour
+public class TeleportLimbo2B : MonoBehaviour
 {
     [SerializeField] private Object scene; //[SerializeField] allows you to see private variables in the editor without making them public
 
@@ -25,7 +25,7 @@ public class Teleport2 : MonoBehaviour
     {
 
         //SceneManager.LoadScene(scene.name);
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(3);
 
         if (other.gameObject.tag == "Player")
         {
