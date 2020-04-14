@@ -20,7 +20,7 @@ public class DestroyStart : MonoBehaviour
 
     void OnCollisionEnter (Collision coll)
     {
-       if (coll.gameObject.tag == "Start")
+       if ((coll.gameObject.tag == "Start") || (coll.gameObject.tag == "Player"))
        {
             startSound.Play();
             GameObject[] starterwalls = GameObject.FindGameObjectsWithTag("Start");
