@@ -2780,8 +2780,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.036718763, y: 0.03460679, z: 0.06465531}
-  m_Center: {x: -0.015314207, y: 0.018776271, z: -0.0015821035}
+  m_Size: {x: 0.041102685, y: 0.024345174, z: 0.06465531}
+  m_Center: {x: -0.02298697, y: 0.0239071, z: -0.0015822995}
 --- !u!82 &290703036
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2792,7 +2792,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 09202904d21dd434a99d35f993dc5d5a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
@@ -3382,8 +3382,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.4469749, y: 0.15216753, z: 0.36411044}
-  m_Center: {x: -0.0066311164, y: 0.027487112, z: -0.0050639086}
+  m_Size: {x: 0.30593824, y: 0.06335785, z: 0.36411044}
+  m_Center: {x: 0.028689694, y: 0.16565035, z: -0.0050639114}
 --- !u!114 &351690386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3406,7 +3406,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7e0728fcff0a8924abd189135ae90ec6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
@@ -7635,8 +7635,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.022581328, y: 0.027282065, z: 0.01803634}
-  m_Center: {x: 0.0022470844, y: 0.011358935, z: 0.0001797265}
+  m_Size: {x: 0.008772227, y: 0.019453408, z: 0.01566016}
+  m_Center: {x: 0.009151602, y: 0.015273043, z: 0.0013678145}
 --- !u!82 &743075474
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7647,7 +7647,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 359112b100c313b4ea8cb0c4fa158fe9, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
@@ -10366,8 +10366,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.60433584, y: 0.108336285, z: 0.49199024}
-  m_Center: {x: -0.01753465, y: 0.09698865, z: -0.036260396}
+  m_Size: {x: 0.60433584, y: 0.0778625, z: 0.4768297}
+  m_Center: {x: -0.01753465, y: 0.11222555, z: -0.043840654}
 --- !u!82 &985958436
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10378,7 +10378,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ba837b7335008d745bfc14ebe811badf, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
@@ -13519,8 +13519,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.8872842, y: 0.4217963, z: 1}
+  m_Center: {x: -2.161737, y: 0.2891013, z: 0}
 --- !u!23 &1212583496
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13591,7 +13591,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7dfd70b6042cd904ea86659c942afa48, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
@@ -13820,8 +13820,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.03287016, y: 0.10472047, z: 0.028434865}
-  m_Center: {x: 0.0021383849, y: 0.06511236, z: 0.0027388495}
+  m_Size: {x: 0.03287016, y: 0.06146927, z: 0.013592631}
+  m_Center: {x: 0.002138378, y: 0.0809833, z: 0.010159969}
 --- !u!82 &1218947617
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13832,7 +13832,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c3b427ef6268f1043b8284905eef3deb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.41
   m_Pitch: 1
@@ -14529,7 +14529,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e23ce445c58a236429779a731267239f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
@@ -14638,8 +14638,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.037635002, y: 0.033120092, z: 0.040001772}
-  m_Center: {x: -0.00021948743, y: 0.006179752, z: 0.00964082}
+  m_Size: {x: 0.027111195, y: 0.03217776, z: 0.03315441}
+  m_Center: {x: 0.002006033, y: 0.028406015, z: 0.01902526}
 --- !u!1001 &1308713838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16715,8 +16715,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1492353224}
-  m_LocalRotation: {x: 0.1155196, y: -0.86069053, z: -0.22391115, w: -0.44241482}
-  m_LocalPosition: {x: 1.9301147, y: 131.62677, z: -4.6503854}
+  m_LocalRotation: {x: -0.10413043, y: -0.3291023, z: -0.03689671, w: 0.93780977}
+  m_LocalPosition: {x: -7.4328375, y: 133.90277, z: 7.642504}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -17274,8 +17274,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.9051738, y: 0.39315996, z: 1}
+  m_Center: {x: -2.9399257, y: 0.2235792, z: -2.5983244e-16}
 --- !u!23 &1545351854
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17346,7 +17346,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7dfd70b6042cd904ea86659c942afa48, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
@@ -17356,7 +17356,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.9801769
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -19148,8 +19148,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.24489696, y: 0.23338322, z: 0.23063533}
-  m_Center: {x: 0.010180021, y: 0.058096983, z: -0.002714661}
+  m_Size: {x: 0.19842364, y: 0.14850718, z: 0.12842655}
+  m_Center: {x: -0.013056819, y: 0.10053498, z: 0.04838973}
 --- !u!114 &1671438969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19172,7 +19172,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 12077d4b428105d4e94d5f7d896ed251, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
