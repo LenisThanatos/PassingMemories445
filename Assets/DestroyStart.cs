@@ -16,16 +16,16 @@ public class DestroyStart : MonoBehaviour
         
     }
 
-    void OnCollisionEnter (Collision coll)
+    public void OnCollisionEnter (Collision coll)
     {
-        if (coll.gameObject.tag == "Start")
-        {
-            GameObjects[] gameObjects = GameObject.FindGameObjectsWithTag(Start);
-            foreach (GameObject target in gameObject) 
-            {
-                gameObject.Destroy(target);
-                Destroy(coll.gameObject);
-            }
-        }
+ //       if (coll.gameObject.tag == "Start")
+ //       {
+ //           GameObject[] gameObjects = GameObject.FindGameObjectsWithTag(tag);
+ //           foreach (GameObject Start in gameObject) 
+ //           {
+  //              gameObject.Destroy(Start);
+ //               //Destroy(coll.gameObject);
+ //           }
+ //       }
     }
 }
